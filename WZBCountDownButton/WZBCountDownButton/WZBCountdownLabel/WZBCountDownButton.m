@@ -137,6 +137,7 @@ static BOOL isAnimationing;
     }
 }
 
+// 播放倒计时图片
 + (void)setAnimationImage:(WZBCountDownButton *)button {
     if (button.images.count > 0) {
         isAnimationing = YES;

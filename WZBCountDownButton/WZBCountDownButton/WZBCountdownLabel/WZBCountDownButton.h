@@ -47,7 +47,7 @@ typedef void(^CountdownBeginBlock)(WZBCountDownButton *button);
 //** number : 倒计时开始数字；endTitle : 倒计时结束时显示的字符；begin : 倒计时开始回调；success : 倒计时完成回调；*/
 + (instancetype)playWithNumber:(NSInteger)number endTitle:(NSString *)endTitle begin:(CountdownBeginBlock)begin success:(CountdownSuccessBlock)success;
 
-//** number : 倒计时开始数字；endTitle : 倒计时结束时显示的字符；begin : 倒计时开始回调；success : 倒计时完成回调；*/
+//** number : 倒计时开始数字；begin : 倒计时开始回调；success : 倒计时完成回调；*/
 + (instancetype)playWithImages:(NSArray *)images begin:(CountdownBeginBlock)begin success:(CountdownSuccessBlock)success;
 
 + (instancetype)playWithImages:(NSArray *)images duration:(NSTimeInterval)duration begin:(CountdownBeginBlock)begin success:(CountdownSuccessBlock)success;
